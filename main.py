@@ -34,9 +34,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 # Initialize the bot
 bot = Client(
     "bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+    api_id= ("API_ID", "27032249")
+    api_hash= ("API_HASH", "448a570f9b48fd49efe918600b282b81")
+    bot_token= ("BOT_TOKEN", "7732456513:AAFSHuITtXPotuAtxmKntDisWbpIsmHhetQ")
 )
 
 API_ID    = os.environ.get("API_ID", "27032249")
